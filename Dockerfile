@@ -2,7 +2,7 @@ FROM java:openjdk-8
 
 MAINTAINER negokaz <negokaz@gmail.com>
 
-ENV BACK_CHANNELING_VERSION 0.1.0
+ENV BACK_CHANNELING_VERSION 0.2.0-beta1
 ENV DATOMIC_URL datomic:free://localhost:4334/bc
 
 RUN curl --silent --location \
